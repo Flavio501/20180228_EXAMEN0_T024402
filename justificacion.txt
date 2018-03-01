@@ -1,0 +1,2 @@
+Se crea un supertipo Bancos con el Protocolo y el Formato de cada uno (tambien supertipos). El protocolo recibe una transaccion y la envia por su protocolo (HTTP, FTP, OTP o algun otro).
+La transaccion recibe el banco de origen y el de destino, y utiliza el metodo parse de cada implementacion concreta de Formato (CSV, JSON, TXT) que recibe esa transferencia para que el protocolo envie solo la envie.
